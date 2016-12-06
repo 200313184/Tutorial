@@ -15,4 +15,12 @@
         TextBox3.Clear()
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        a = Val(TextBox1.Text)
+        b = Val(TextBox2.Text)
+        c = a - b
+        TextBox3.Text = c
+
+    End Sub
 End Class
